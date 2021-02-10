@@ -1,4 +1,4 @@
-Changes on this branch is that an autoloader 'psr-4' / composer is now  being used to load classes. Classes are found at src/models/
+Changes on this branch is that an autoloader 'psr-4' / 'composer' is now  being used to load classes. Classes are found at src/models/
 
 Worked to be picked up by another developer:
 1. Improve the code architecture by implementing MCV
