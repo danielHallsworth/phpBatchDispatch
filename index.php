@@ -1,12 +1,12 @@
- <?php
+<?php
 
+use Psr\Models\Batch;
+use Psr\Models\Courier;
+use Psr\Models\CourierMovements;
+use Psr\Models\Product;
 
+require_once realpath('vendor/autoload.php');
 
-include 'includes/loadClasses.php';
-
- // example data  
-
-// 	instantiate new batch
 $batch = new Batch();
 
 // start new batch
@@ -61,6 +61,3 @@ var_dump($courierMovements->viewBatch($batch->getCurrentBatch()));
 
 // send all courier movements for a specific batch ($selector, $batch). uses Courier specific method for sending data.
 //$courierMovements->sendBatch($batch->getCurrentBatch());
-
-
-?>
