@@ -62,5 +62,6 @@ var_dump($courierMovements->viewBatch($batch->getCurrentBatch()));
 // send all courier movements for a specific batch ($selector, $batch). uses Courier specific method for sending data.
 //$courierMovements->sendBatch($batch->getCurrentBatch());
 echo "first git commit";
+echo "second git commit";
 
 ?>
